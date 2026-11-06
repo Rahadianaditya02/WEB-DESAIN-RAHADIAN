@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda | Portofolio Mahasiswa</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="top-strip">
+    <div class="wrap strip-inner">
+      <span>◈ PORTOFOLIO MAHASISWA · UNIVERSITAS KUNINGAN</span>
+      <span>Web Desain&nbsp;&nbsp; | &nbsp;&nbsp;Sistem Informasi</span>
+    </div>
+  </div>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">
+        <span class="logo-symbol">UK</span>
+        <span class="logo-text"><b>MY CAMPUS</b><small>Profil dan Hasil Praktikum</small></span>
+      </a>
+      <button class="menu-button" type="button" onclick="document.querySelector('.navigation').classList.toggle('open')">☰</button>
+      <nav class="navigation">
+        <a class="selected" href="index.html">Beranda</a>
+        <a class="" href="keluarga.html">Profil Keluarga</a>
+        <a class="" href="praktikum.html">Halaman Praktikum</a>
+        <a class="" href="laporan.html">Laporan Praktikum</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap two-column">
+    <div class="content">
+      <section class="welcome-banner">
+        <div class="profile-photo-wrap"><img class="profile-photo" src="foto-profil.jpeg" alt="Foto profil mahasiswa"></div>
+        <div class="welcome-text">
+          <span class="overline">SELAMAT DATANG DIWEBSITE PROFIL MAHASISWA</span>
+          <h1>Rahadian Muhammad Aditya Akbar</h1>
+          <p>Selamat datang di website pribadi saya. Website ini berisi informasi profil diri, keluarga, serta dokumentasi hasil dan laporan praktikum Web Desain.</p>
+          <div class="actions"><a class="button yellow" href="#profil">Lihat Profil Lengkap</a><a class="button white-outline" href="praktikum.html">Materi Praktikum</a></div>
+        </div>
+      </section>
+
+      <section class="section" id="profil">
+        <div class="section-title"><span>TENTANG SAYA</span><h2>Profil Pribadi</h2></div>
+        <div class="white-panel">
+          <p>Perkenalkan, nama saya <b>Rahadian Muhammad Aditya Akbar</b>. Saya merupakan mahasiswa Program Studi Sistem Informasi, Fakultas Ilmu Komputer, Universitas Kuningan. Saya tertarik mempelajari teknologi informasi, pengembangan website, dan dunia komputer.</p>
+          <p>Melalui website ini, saya ingin memperkenalkan diri sekaligus menyimpan hasil pembelajaran dan tugas selama mengikuti perkuliahan.</p>
+          <h3 class="small-heading">Biodata Diri</h3>
+          <div class="bio-list">
+            <div><b>Nama Lengkap</b><span>Rahadian Muhammad Aditya Akbar</span></div>
+            <div><b>Program Studi</b><span>Sistem Informasi</span></div>
+            <div><b>Fakultas</b><span>Ilmu Komputer</span></div>
+            <div><b>Universitas</b><span>Universitas Kuningan</span></div>
+            <div><b>Status</b><span>Mahasiswa</span></div>
+            <div><b>Hobi</b><span>Mendengarkan musik, mendaki gunung, dan olahraga</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title"><span>RIWAYAT PENDIDIKAN</span><h2>Pendidikan</h2></div>
+        <div class="white-panel education">
+          <div><b>2012 – 2019 · Sekolah Dasar</b><span>SD Negeri 2 Kalapadua</span></div>
+          <div><b>2019 – 2022 · Sekolah Menengah Pertama</b><span>SMP Negeri 3 Lemahsugih</span></div>
+          <div><b>2022 – 2025 · Sekolah Menengah Atas/Kejuruan</b><span>SMK Negeri 1 Lemahsugih</span></div>
+          <div><b>2025 – Sekarang · Perguruan Tinggi</b><span>Universitas Kuningan – Sistem Informasi</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="jadwal">
+        <div class="section-title"><span>AKADEMIK</span><h2>Jadwal Mata Kuliah</h2></div>
+        <div class="white-panel schedule-panel">
+          <p class="schedule-note">Jadwal perkuliahan berdasarkan data pada tangkapan layar SIAKAD yang diberikan.</p>
+          <div class="table-scroll">
+            <table class="schedule-table">
+              <thead><tr><th>No</th><th>Hari</th><th>Tanggal</th><th>Mulai</th><th>Selesai</th><th>Jenis</th><th>Kelas Mata Kuliah</th></tr></thead>
+              <tbody>
+                <tr><td>1</td><td>Senin</td><td>28 Sep 2026</td><td>13:00</td><td>14:35</td><td>Kuliah</td><td>Riset Operasi - 25-02</td></tr>
+                <tr><td>2</td><td>Senin</td><td>28 Sep 2026</td><td>14:40</td><td>16:15</td><td>Kuliah</td><td>Pemrograman Dasar - 25-02</td></tr>
+                <tr><td>3</td><td>Selasa</td><td>29 Sep 2026</td><td>08:00</td><td>09:35</td><td>Praktikum</td><td>Analisis dan Perancangan Sistem Informasi - 25-02</td></tr>
+                <tr><td>4</td><td>Selasa</td><td>29 Sep 2026</td><td>09:40</td><td>11:15</td><td>Kuliah</td><td>Statistika Data - 25-02</td></tr>
+                <tr><td>5</td><td>Selasa</td><td>29 Sep 2026</td><td>14:40</td><td>16:15</td><td>Praktikum</td><td>Pemrograman Dasar - 25-02</td></tr>
+                <tr><td>6</td><td>Rabu</td><td>30 Sep 2026</td><td>10:30</td><td>12:05</td><td>Kuliah</td><td>Analisis dan Perancangan Sistem Informasi - 25-02</td></tr>
+                <tr><td>7</td><td>Rabu</td><td>30 Sep 2026</td><td>13:00</td><td>14:35</td><td>Kuliah</td><td>Kalkulus - 25-02</td></tr>
+                <tr><td>8</td><td>Kamis</td><td>1 Okt 2026</td><td>08:00</td><td>09:35</td><td>Praktikum</td><td>Web Desain - 25-02</td></tr>
+                <tr><td>9</td><td>Kamis</td><td>1 Okt 2026</td><td>09:40</td><td>11:15</td><td>Kuliah</td><td>English Communication for IT - 25-02</td></tr>
+                <tr><td>10</td><td>Kamis</td><td>1 Okt 2026</td><td>13:00</td><td>14:35</td><td>Kuliah</td><td>Web Desain - 25-02</td></tr>
+                <tr><td>11</td><td>Jumat</td><td>2 Okt 2026</td><td>08:00</td><td>10:25</td><td>Kuliah</td><td>Analisis Proses Bisnis - 25-02</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <aside class="sidebar">
+      <div class="side-box">
+        <h3>☷ &nbsp;Tautan Cepat</h3>
+        <a href="#profil">Profil Pribadi</a><a href="#jadwal">Jadwal Mata Kuliah</a><a href="keluarga.html">Profil Keluarga</a><a href="praktikum.html">Halaman Praktikum</a><a href="laporan.html">Laporan Praktikum</a>
+      </div>
+      <div class="side-box highlight-box">
+        <h3>▣ &nbsp;INFORMASI KULIAH</h3>
+        <b>Web Desain</b><p>Program Studi Sistem Informasi</p><p>Fakultas Ilmu Komputer<br>Universitas Kuningan</p>
+        <a class="button yellow full" href="praktikum.html">Lihat Praktikum</a>
+      </div>
+      <div class="side-box">
+        <h3>♧ &nbsp;Tentang</h3>
+        <p>Website ini dibuat untuk memenuhi tugas dan menjadi dokumentasi pembelajaran mata kuliah Web Desain.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-columns">
+      <div><h3>Tentang Website</h3><p>Website portofolio mahasiswa yang berisi profil pribadi, profil keluarga, hasil praktikum, dan laporan praktikum Web Desain.</p></div>
+      <div><h3>Tautan Menu</h3><a href="index.html">Beranda</a><a href="keluarga.html">Profil Keluarga</a><a href="praktikum.html">Halaman Praktikum</a><a href="laporan.html">Laporan Praktikum</a></div>
+      <div><h3>Kontak Kampus</h3><p>Universitas Kuningan<br>Program Studi Sistem Informasi<br>Kuningan, Jawa Barat</p></div>
+    </div>
+    <div class="wrap copyright">© 2026 Portofolio Mahasiswa · Universitas Kuningan</div>
+  </footer>
+</body>
+</html>
